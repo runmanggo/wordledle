@@ -1,0 +1,47 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin: 16px 13px 16px 13px;
+}
+
+.keybord_Q_P,
+.keybord_A_L,
+.keybord_Z_M {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.keybord_cap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d6da;
+  background-color: #d3d6da;
+  width: 42px;
+  height: 60px;
+  margin-inline: 4px;
+  border-radius: 7px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.keybord_cap_big {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d6da;
+  background-color: #d3d6da;
+  width: 70px;
+  height: 60px;
+  margin-inline: 3px;
+  border-radius: 7px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 11pt;
+}
